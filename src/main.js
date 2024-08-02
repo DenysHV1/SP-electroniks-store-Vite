@@ -1,4 +1,6 @@
 import { itemsSlider } from './js/array-slider-pictures';
+import Swiper from 'swiper/bundle';
+import 'swiper/css/bundle';
 const swiperWrapper = document.querySelector('.swiper-wrapper');
 
 const sliderMarkup = itemsSlider.map(
@@ -20,9 +22,6 @@ class="swiper__img"
 </div>`
 );
 swiperWrapper.insertAdjacentHTML('afterbegin', sliderMarkup);
-
-import Swiper from 'swiper/bundle';
-import 'swiper/css/bundle';
 
 new Swiper('.swiper', {
   navigation: {
