@@ -47,11 +47,11 @@ new Swiper('.swiper', {
   },
   autoHeight: true,
   loop: true,
-  autoplay: {
-    delay: 3000,
-    stopOnLastSlide: false,
-    disableOnInteraction: false,
-  },
+//   autoplay: {
+//     delay: 3000,
+//     stopOnLastSlide: false,
+//     disableOnInteraction: false,
+//   },
   speed: 800,
   effect: 'fade',
   fadeEffect: {
