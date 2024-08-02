@@ -5,20 +5,12 @@ const swiperWrapper = document.querySelector('.swiper-wrapper');
 
 const sliderMarkup = itemsSlider.map(
   ({
-    src1,
     src2,
     alt,
     hash,
   }) => `<div data-hash = "${hash}"class="swiper-slide">
-  <img
-srcset="
-  ${src1} 1x,
-  ${src2} 2x
-"
-src="${src2}"
-alt="${alt}"
-class="swiper__img"
-/> 
+
+<img class="swiper__img" alt="${alt}" src="${src2}" />
 </div>`
 );
 swiperWrapper.insertAdjacentHTML('afterbegin', sliderMarkup);
@@ -58,3 +50,13 @@ new Swiper('.swiper', {
     crossFade: true,
   },
 });
+
+/* <img
+srcset="
+  ${src1} 1x,
+  ${src2} 2x
+"
+src="${src2}"
+alt="${alt}"
+class="swiper__img"
+/> */
