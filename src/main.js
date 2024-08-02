@@ -4,16 +4,16 @@ const swiperWrapper = document.querySelector('.swiper-wrapper');
 const sliderMarkup = itemsSlider.map(
   ({
     src1,
-    src2,
+    pathImg,
     alt,
     hash,
   }) => `<div data-hash = "${hash}"class="swiper-slide">
   <img
 srcset="
   ${src1} 1x,
-  ${src2} 2x
+  ${pathImg} 2x
 "
-src="${src2}"
+src="${pathImg}"
 alt="${alt}"
 class="swiper__img"
 />
