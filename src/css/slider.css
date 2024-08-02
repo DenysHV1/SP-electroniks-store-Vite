@@ -1,0 +1,21 @@
+.swiper{
+	width: 100wh;
+	height: 70vh;
+	max-height: 100vh;
+}
+
+.swiper__img{
+	max-width: 100%;
+	object-fit: cover;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.swiper-pagination::after{
+	color: rgb(255, 255, 255);
+
+}

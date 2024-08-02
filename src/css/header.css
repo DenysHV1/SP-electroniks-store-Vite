@@ -1,21 +1,58 @@
-.header {
-  padding: 20px 0;
+/* font-family: "Montserrat", sans-serif; */
+.header{
+	width: 100%;
+	padding: 20px 0;
+	filter: blur(5px);
+	filter: drop-shadow(8px 8px 10px rgb(157, 157, 180));
+	background-color: rgba(0, 0, 0, 0.14);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
+
 }
 
-.nav-list {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+.header-inner{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+.header-logo{
+	font-size: 36px;
+	text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+	color: white;
+	font-style: oblique;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.nav-list{
+	display: flex;
+	align-items: center;
+	gap: 20px;
 }
+
+.nav-link{
+	font-size: 24px;
+	text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+	color: white;
+}
+
+.header-socials-list{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.swiper-pagination-bullet{
+background-color: transparent;
+width: 15px;
+height: 15px;
+opacity: 1;
+border-radius: 0;
+}
+
+.swiper-pagination-bullet-active{
+	background-color: red;
+}
+
+
