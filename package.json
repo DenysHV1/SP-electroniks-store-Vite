@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/SP-electroniks-store-Vite/",
+    "build": "vite build --base=/slider-fadeEffect-Vite/",
     "preview": "vite preview"
   },
   "devDependencies": {
